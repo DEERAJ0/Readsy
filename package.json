@@ -5,8 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon backend/server.js",
-    "build":"npm install && npm install --prefix frontend && npm run build --prefix frontend",
-    "start":"NODE_ENV=production node backend/server.js"
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "cross-env NODE_ENV=production node backend/server.js"
   },
   "type": "module",
   "keywords": [],
@@ -22,5 +22,8 @@
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.16.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }

@@ -12,7 +12,7 @@ import RedirectUnauthenticatedUsers from "./providers/RedirectUnauthenticatedUse
 import Footer from "./components/Footer.jsx"
 import SearchPage from "./pages/SearchPage.jsx"
 import BookPage from "./pages/BookPage.jsx"
-import UpdatePage from "./pages/Updatepage.jsx"
+import UpdatePage from './pages/Updatepage.jsx';
 
 function App() {
 
